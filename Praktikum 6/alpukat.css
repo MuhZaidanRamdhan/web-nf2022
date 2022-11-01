@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    background-color: black;
+}
+
+.foto img{
+    width: 23%;
+}
+
+.promo {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.cod {
+    margin: auto;
+    width: 24%;
+}
+
+.cod p {
+    background-color: aqua;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    border: 1px dotted red;
+}
+
+#tombol {
+    color: orange;
+    background-color: beige;
+    border-color: beige;
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    margin-top: 20px;
+    border-color: beige;
+}
+
+.tr1 {
+    background-color: blue;
+    color: white;
+}
+
+.tr2 {
+    background-color: beige;
+    color: crimson;
+}
+
+.tr3 {
+    background-color: cyan;
+    color: black;
+}
+
+.tr4 {
+    background-color: black;
+    color: red;
+}
+
+.tr5 {
+    background-color: forestgreen;
+    color: navajowhite;
+}
