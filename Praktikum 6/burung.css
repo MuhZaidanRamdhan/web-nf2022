@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    color: black;
+    text-align: justify;
+}
+
+#header {
+    text-align: center;
+    color:blue; 
+    background-color: rgb(247, 174, 122);
+    height: 150px;
+    margin: 0;
+}
+
+.quote {
+    background-color: rgba(255, 255, 0, 0.904);
+    border: 3px dotted blue;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 16%;
+    width: 70%;
+}
+
+.isi {
+    word-spacing: 3px;
+    margin-bottom: 8px;
+}
+#soekarno {
+    color: black;
+    font-weight: bold;
+}
+
+.nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.fp::first-letter {
+    font-size: 40px;
+    color: blue;
+    font-family: serif;
+}
+#profil ul li {
+    text-align: left;
+    padding-left: 0%;
+    margin-left: 0%;
+    list-style-type: number;
+}
+
+.gambar {
+    text-align: center;   
+}
+
+
+div .koleksi img {
+    margin-left: 5%;
+    width: 20%;
+    display: inline;
+}
+
+.promo {
+    text-align: center;
+    background-color: silver;
+    height: 250px;
+    color: black;
+    margin-top: 3px;
+}
+
+div .promo2 {
+    padding-top: 10px;
+}
+
+.del {
+    color: red;
+}
+
+.strong {
+    color: red;
+}
+
+.promo li {
+    list-style: none;
+    display: inline;
+}
+
+.tokped {
+    color: green;
+    font-weight: bold;
+}
+
+.bukalapak {
+    color: rgba(156, 0, 0, 0.911);
+    font-weight: bold;
+}
+
+.shopee {
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
