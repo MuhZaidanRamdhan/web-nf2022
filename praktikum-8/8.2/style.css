@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: yellow;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    background-color: beige;
+    flex: 2;
+}
+
+aside {
+    background-color: pink;
+    flex: 1;
+}
+
+nav {
+    background-color: cyan;
+    flex: 1;
+}
+
+footer {
+    background-color: yellow;
+}
