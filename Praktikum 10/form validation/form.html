@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: purple;
+            
+        }
+
+        #jumlah {    
+            width: 100px;
+        }
+
+        fieldset {
+            border-radius: 5px;
+            background-color: white;
+            padding: 0;
+            border-color: black;
+        }
+        table {
+            padding: 20px;
+        }
+        button {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            color: white;
+            background-color: #8e44ad;
+            border-color: #8e44ad;
+            justify-content: center;
+            border-radius: 5px;
+        }
+
+        #nama {
+            width: 400px;
+        }
+
+        #email {
+            width: 400px;
+        }
+
+        #jam {
+            width: 403px;
+        }
+
+        #tujuan {
+            width: 408px;
+        }
+
+        #jumlah {
+            width: 400px;
+        }
+
+        section {
+            background-color: silver;
+        }
+
+        h1 {
+            margin-top: 0;
+            text-align: center;
+            padding-top: 25px;
+            color: #8e44ad;
+            padding-bottom: 5px;
+            margin-left: 2px;
+        }
+
+        p {
+            padding-left:15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+    <form onsubmit="login()">
+        <h1>Form Validation</h1>
+        <p>Nama Lengkap</p>
+        <p><input id="nama" type="text" placeholder="Masukan Nama" required maxlength="30"></p>
+            
+        <p>Email</p>
+        <p><input id="email" type="email" placeholder="Masukan Email Anda" required></p>
+            
+        <p>Jam Keberangkatan</p> 
+         <p><input id="jam" type="time" required></p>
+
+        <p>Tujuan Keberangkatan</p>
+         <p>
+            <select name="" id="tujuan">
+                <option value="">--silahkan pilih--</option>
+                <option value="">Jakarta</option>
+                <option value="">Bali</option>
+                <option value="">Surabaya</option>
+                <option value="">Yogyakarta</option>
+                <option value="">Lampung</option>
+                <option value="">Makassar</option>
+            </select>
+         </p>
+          <p>Jumlah Tiket</p>
+         <p><input id="jumlah" type="number" min="1" max="10" placeholder="max 10"></p>
+             <center>
+                 <button>Login</button>
+            </center>
+            <br>
+         </form>
+        </fieldset>
+
+    <script src="form.js"></script>
+</body>
+</html>
